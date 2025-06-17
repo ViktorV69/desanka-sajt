@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desanka Maksimović</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        header {
+            background-color: #7c4dff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #eee;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            padding: 14px 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #5e35b1;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #7c4dff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .gallery img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Desanka Maksimović – Pesnikinja Srca i Naroda</h1>
+    </header>
+
+    <nav>
+        <a href="#biografija">Biografija</a>
+        <a href="#dela">Dela</a>
+        <a href="#zanimljivosti">Zanimljivosti</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <main>
+        <section id="biografija">
+            <h2>Biografija</h2>
+            <p>
+                Desanka Maksimović rođena je 16. maja 1898. godine u Rabrovici, kod Valjeva.
+                Bila je srpska pesnikinja, profesorka i akademik. Njeno stvaralaštvo obuhvata lirske,
+                rodoljubive i dečje pesme. Studirala je na Filozofskom fakultetu u Beogradu, a usavršavala se u Parizu.
+                Preminula je 1993. godine, a sahranjena je u Brankovini.
+            </p>
+        </section>
+
+        <section id="galerija">
+            <h2>Fotografije</h2>
+            <div class="gallery">
+                <img src="dedsanka.jpg" alt="Desanka Maksimović">
+                <img src="desanka-maksimovic-1200x641-1.jpg" alt="Kuća Desanke Maksimović">
+            </div>
+        </section>
+
+        <section id="dela">
+            <h2>Pesme / Odlomci</h2>
+            <h3>Strepnja</h3>
+            <p>
+                Ne, nemoj mi prići!<br>
+                Hoću izdaleka<br>
+                da volim i želim tvoja oka dva.<br>
+                Jer sreća je lepa samo dok se čeka,<br>
+                dok od sebe samo nagoveštaj da.
+            </p>
+
+            <h3>Opomena</h3>
+            <p>
+                Ne ljuti se što ne govorim često<br>
+                što ne govorim mnogo i bučno.<br>
+                I juče sam bila kao i danas<br>
+                i sutra ću biti tiha i tužna.
+            </p>
+        </section>
+
+        <section id="zanimljivosti">
+            <h2>Zanimljivosti</h2>
+            <ul>
+                <li>Desanka je pisala i poeziju za decu i odrasle.</li>
+                <li>Tokom Drugog svetskog rata zabranjeno joj je da predaje zbog patriotske poezije.</li>
+                <li>Dobitnica je mnogobrojnih priznanja, uključujući Vukovu nagradu i Njegoševu nagradu.</li>
+                <li>Odbila je članstvo u partiji i ostala nezavisna ličnost.</li>
+                <li>Njeno rodno mesto Brankovina pretvoreno je u muzej.</li>
+            </ul>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Za više informacija pišite na: <a href="mailto:info@desanka.rs">info@desanka.rs</a></p>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Sajt o Desanki Maksimović | Pratite nas: Facebook • Instagram • YouTube
+    </footer>
+
+</body>
+</html>
